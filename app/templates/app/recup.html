@@ -37,7 +37,7 @@
             <tbody>
                 {% for moko in donnee %}
                     <tr>
-                        <th scope="row">{{ moko.id }}</th>
+                        <th scope="row">{{ forloop.counter }}</th>
                         <td>{{ moko.nom }}</td>
                         <td>{{ moko.prenom }}</td>
                         <td>{{ moko.numero }}</td>
